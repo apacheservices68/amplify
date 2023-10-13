@@ -37,7 +37,7 @@ export default function Home() {
             }
         }
         const data = await  API.post("mysls","", requestHeader)
-        console.log("Data: ", data)
+        console.log("Data 1: ", data)
     }
   return (
     <div className={styles.container}>
